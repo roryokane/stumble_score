@@ -35,7 +35,7 @@ class CLIWithOutput
     @output += string
   end
 
-  def println(string)
+  def println(string="")
     print string + "\n"
   end
 end
