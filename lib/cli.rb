@@ -1,4 +1,5 @@
 require File.expand_path(File.join('..', 'stumble_score'), __FILE__)
+require 'ruby-debug'
 
 class CLI
 
