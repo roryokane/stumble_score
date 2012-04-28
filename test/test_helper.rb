@@ -9,7 +9,7 @@ ENV['RACK_ENV'] = 'test'
 
 module LocationFixtures
   CHESTNUT_HILL                 = "19118"
-  CHESTNUT_HILL_BAR_COUNT       = 9
+  CHESTNUT_HILL_BAR_COUNT       = 10
   CHESTNUT_HILL_SCORE           = 45.0
   CHESTNUT_HILL_CLASSIFICATION  = "Tipsy"
   CHESTNUT_HILL_BAR             = "Towey's Tavern"
