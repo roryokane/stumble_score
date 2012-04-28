@@ -33,7 +33,8 @@ class CLIWithOutput
     println address
 
     location = Location.new(address)
-    println "Bar count: " + location.bar_count.to_s
+    println "Bar count: #{location.bar_count}"
+    println "StumbleScore: #{location.score}"
   end
 
   def print(string)
