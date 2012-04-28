@@ -6,7 +6,7 @@ require "json"
 module StumbleScore
 
   class Location
-    GOOGLE_KEY    = "AIzaSyDR7kyOHOKmbWVXV77JH1riDFe3EL67ntY"
+    GOOGLE_KEY    = "AIzaSyDJATG1Pa7KRVV3qCw51w0qHKTBBQQFUec"
     RADIUS        = 2000 # (meters)
     CRITERIA      = URI.escape("bar|pub")
     MAGIC_NUMBER  = 20
