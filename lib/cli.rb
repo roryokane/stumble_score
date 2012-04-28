@@ -21,6 +21,12 @@ class CLIWithOutput
 
   def run_ready_to_output(address="")
     println "Welcome to StumbleScore."
+
+    if address == ""
+      println "Usage: stumble_score <address>"
+      return
+    end
+
     println "The address you entered:"
     println address
   end
