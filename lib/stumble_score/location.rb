@@ -16,7 +16,7 @@ module StumbleScore
     end
 
     def bar_count
-      # TODO
+      bars.length
     end
 
     def score

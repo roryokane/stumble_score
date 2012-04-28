@@ -32,13 +32,8 @@ class CLIWithOutput
     println "The address you entered:"
     println address
 
-    println "Bar count: " + num_bars_at_address(address).to_s
-  end
-
-  def num_bars_at_address(address)
     location = Location.new(address)
-    bars = location.bars
-    return bars.length
+    println "Bar count: " + location.bar_count.to_s
   end
 
   def print(string)
